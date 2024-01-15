@@ -1,0 +1,80 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+}
+
+* {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+header{
+  max-width: 81%;
+  margin: 0 auto;
+ 
+
+}
+nav{
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+
+nav ul{
+  display: flex;
+  
+}
+nav li{
+ list-style: none;
+ margin-right: 44px;
+}
+.banner{
+  
+  width: 81%px;
+  height: 500PX;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center; background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.banner-title{
+  color: #FFF;
+font-size: 64px;
+font-weight: 600;
+
+}
+.banner-description{
+  width: 676px;
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.box{
+  display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.btn-primary{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.btn-secoundery{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+}
