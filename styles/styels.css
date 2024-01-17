@@ -21,6 +21,14 @@ nav{
   display: flex;
   align-items: center;
 }
+.icon-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.style-travel{
+  color: #FF5400;
+}
 
 
 nav ul{
@@ -57,7 +65,7 @@ font-weight: 400;
 }
 
 .box{
-  display: inline-flex;
+
 padding: 16px;
 align-items: flex-start;
 gap: 24px;
@@ -78,3 +86,105 @@ border-radius: 8px;
 background: #FF5400;
 border: none;
 }
+main{
+  max-width: 81%;
+  margin: 0 auto;
+}
+.tour-container{
+  display: flex;
+  justify-content:space-between;
+}
+.tours-title{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+l
+
+}
+.tour-description1{
+
+ color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+
+}
+.tours-li{
+  width: 525px;
+width: 525px;
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+
+}
+.tour-description2{
+width: 530px;
+color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+
+}
+.tours-img{
+
+  width: 100%;
+height: 100%;
+
+}
+
+.destination{
+ 
+  margin: 0 135px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.destination-title{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+.destination-description{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+justify-content: center;
+
+}
+.row-1{
+  display: flex;
+  
+}
+.img-5{
+  width: 90%;
+}
+  .img-8{
+    width: 90%;
+  }
+
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 500px;
+  padding-top: 110px;
+
+  background: rgba(19, 19, 24, 0.05);
+  
+}
+
+.footer-description{
+  width: 769px;
+  padding: 15px 335px 50px;
+justify-content: center;
+text-align: center;
+text-wrap: wrap;
+
+}
+.footer
+  
